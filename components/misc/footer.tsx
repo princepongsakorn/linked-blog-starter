@@ -7,7 +7,7 @@ const Footer = () => {
             <p>Written by Pongsakorn Pongsutiyakorn</p>
             <div className="flex flex-row">
               <a
-                href={`https://github.com/matthewwong525/linked-blog-starter`}
+                href={`https://github.com/princepongsakorn`}
                 className="mx-1 font-bold hover:underline"
               >
                 GitHub
