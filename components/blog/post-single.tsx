@@ -34,7 +34,7 @@ function PostSingle({
               {/* Article header */}
               <header className="max-w-3xl mx-auto mb-20">
                 {/* Title */}
-                <h1 className="h1 text-center mb-4 text-6xl">{title}</h1>
+                <h1 className="h1 text-center mb-4 text-6xl" id={`gradient_header_${Math.floor(Math.random() * 4)}`}>{title}</h1>
               </header>
 
               {/* Article content */}

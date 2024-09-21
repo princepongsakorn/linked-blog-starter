@@ -106,13 +106,30 @@
     width 0.1s ease-out;
 }
 
+#gradient_header_0 {
+  background: #121fcf;
+  background: linear-gradient(to top, #476892 0%, #59355d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 #gradient_header_1 {
   background: #121fcf;
-  background: linear-gradient(
-    to top,
-    rgb(75, 188, 243) 0%,
-    rgb(117, 157, 247) 100%
-  );
+  background: linear-gradient(to top, #30496b 0%, #30bbd2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#gradient_header_2 {
+  background: #121fcf;
+  background: linear-gradient(to top, #fbca88 0%, #ef69ad 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#gradient_header_3 {
+  background: #121fcf;
+  background: linear-gradient(to top, #abe5e6 0%, #7062f0 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
